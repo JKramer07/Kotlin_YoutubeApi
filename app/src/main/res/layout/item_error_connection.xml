@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/white">
+
+    <ImageView
+        android:src="@drawable/no_internetconnection"
+        android:layout_centerInParent="true"
+        android:layout_width="300dp"
+        android:layout_height="350dp"
+        android:contentDescription="@string/todo" />
+    
+    <Button
+        android:text="@string/try_again"
+        android:textColor="@color/white"
+        android:fontFamily="@font/notosans_regular"
+        android:textSize="16sp"
+        android:textAllCaps="false"
+        android:background="#FF0000"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>
